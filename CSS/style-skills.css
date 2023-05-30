@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: beige;
+}
+
+.caja-padre{
+    width: 35%;
+    min-width: 520px;
+    position: absolute;
+    
+}
+
+.contenedor{
+    width: 100%;
+    padding: 30px 30px 50px;
+    background: linear-gradient(450deg,darkblue,black);
+    border: 2px solid rgba(0,0,0,0.06);
+    border-radius: 10px; 
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.contenedor *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+/*animation*/
+#c-menu{
+    animation: c-barra 2s forwards;
+}
+
+@keyframes c-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#java-menu{
+    animation: java-barra 2s forwards;
+}
+
+@keyframes java-barra{
+    100%{
+        width: 70%;
+    }
+}
+
+#python-menu{
+    animation: python-barra 2s forwards;
+}
+
+@keyframes python-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#php-menu{
+    animation: php-barra 2s forwards;
+}
+
+@keyframes php-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+#javascript-menu{
+    animation: javascript-barra 2s forwards;
+}
+
+@keyframes javascript-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+#cs-menu{
+    animation: cs-barra 2s forwards;
+}
+
+@keyframes cs-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+#html-menu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#css-menu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#bootstrap-menu{
+    animation: bootstrap-barra 2s forwards;
+}
+
+@keyframes bootstrap-barra{
+    100%{
+        width: 60%;
+    }
+}
+
+#docker-menu{
+    animation: docker-barra 2s forwards;
+}
+
+@keyframes docker-barra{
+    100%{
+        width: 30%;
+    }
+}
+
+#reactjs-menu{
+    animation: reactjs-barra 2s forwards;
+}
+
+@keyframes reactjs-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+#github-menu{
+    animation: github-barra 2s forwards;
+}
+
+@keyframes github-barra{
+    100%{
+        width: 50%;
+    }
+}
+
+#visual-menu{
+    animation: visual-barra 2s forwards;
+}
+
+@keyframes visual-barra{
+    100%{
+        width: 70%;
+    }
+}
+
+#ingles-menu{
+    animation: ingles-barra 2s forwards;
+}
+
+@keyframes ingles-barra{
+    100%{
+        width: 70%;
+    }
+}
